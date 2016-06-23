@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD203FAE1D1A80C3002AD624 /* KyoLoadMoreControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD203FAD1D1A80C3002AD624 /* KyoLoadMoreControl.m */; };
+		FD203FB01D1B93BB002AD624 /* btn_blue_gaoliang.png in Resources */ = {isa = PBXBuildFile; fileRef = FD203FAF1D1B93BB002AD624 /* btn_blue_gaoliang.png */; };
+		FD203FB21D1B93C1002AD624 /* btn_blue_moren.png in Resources */ = {isa = PBXBuildFile; fileRef = FD203FB11D1B93C1002AD624 /* btn_blue_moren.png */; };
 		FD636E8F1D1402090010780B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD636E8E1D1402090010780B /* main.m */; };
 		FD636E921D1402090010780B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD636E911D1402090010780B /* AppDelegate.m */; };
 		FD636E951D1402090010780B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD636E941D1402090010780B /* ViewController.m */; };
@@ -14,6 +17,12 @@
 		FD636E9A1D1402090010780B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD636E991D1402090010780B /* Assets.xcassets */; };
 		FD636E9D1D1402090010780B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD636E9B1D1402090010780B /* LaunchScreen.storyboard */; };
 		FD636EA81D1402090010780B /* MTRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD636EA71D1402090010780B /* MTRefreshControlTests.m */; };
+		FDAC263D1D17936C006C7184 /* HZRefreshControlViewPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC263C1D17936C006C7184 /* HZRefreshControlViewPinterest.m */; };
+		FDAC263F1D179C1D006C7184 /* MTRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDAC263E1D179C1D006C7184 /* MTRefresh.bundle */; };
+		FDAC264D1D183BD1006C7184 /* RHAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC264C1D183BD1006C7184 /* RHAnimator.m */; };
+		FDAC26501D183F57006C7184 /* HZRefreshControlConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC264F1D183F57006C7184 /* HZRefreshControlConfiguration.m */; };
+		FDAC26531D18DD4F006C7184 /* HZRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC26521D18DD4F006C7184 /* HZRefreshControl.m */; };
+		FDAC26561D1930B9006C7184 /* HZRefreshComponetView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC26551D1930B9006C7184 /* HZRefreshComponetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD203FAC1D1A80C3002AD624 /* KyoLoadMoreControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KyoLoadMoreControl.h; sourceTree = "<group>"; };
+		FD203FAD1D1A80C3002AD624 /* KyoLoadMoreControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KyoLoadMoreControl.m; sourceTree = "<group>"; };
+		FD203FAF1D1B93BB002AD624 /* btn_blue_gaoliang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_blue_gaoliang.png; sourceTree = "<group>"; };
+		FD203FB11D1B93C1002AD624 /* btn_blue_moren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_blue_moren.png; sourceTree = "<group>"; };
 		FD636E8A1D1402090010780B /* MTRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD636E8E1D1402090010780B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD636E901D1402090010780B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +53,18 @@
 		FD636EA31D1402090010780B /* MTRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD636EA71D1402090010780B /* MTRefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRefreshControlTests.m; sourceTree = "<group>"; };
 		FD636EA91D1402090010780B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD636EB71D1404350010780B /* HZRefreshControlViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRefreshControlViewProtocol.h; sourceTree = "<group>"; };
+		FDAC263B1D17936C006C7184 /* HZRefreshControlViewPinterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRefreshControlViewPinterest.h; sourceTree = "<group>"; };
+		FDAC263C1D17936C006C7184 /* HZRefreshControlViewPinterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRefreshControlViewPinterest.m; sourceTree = "<group>"; };
+		FDAC263E1D179C1D006C7184 /* MTRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MTRefresh.bundle; sourceTree = "<group>"; };
+		FDAC264B1D183BCC006C7184 /* RHAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAnimator.h; sourceTree = "<group>"; };
+		FDAC264C1D183BD1006C7184 /* RHAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAnimator.m; sourceTree = "<group>"; };
+		FDAC264E1D183F57006C7184 /* HZRefreshControlConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRefreshControlConfiguration.h; sourceTree = "<group>"; };
+		FDAC264F1D183F57006C7184 /* HZRefreshControlConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRefreshControlConfiguration.m; sourceTree = "<group>"; };
+		FDAC26511D18DD4F006C7184 /* HZRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRefreshControl.h; sourceTree = "<group>"; };
+		FDAC26521D18DD4F006C7184 /* HZRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRefreshControl.m; sourceTree = "<group>"; };
+		FDAC26541D1930B9006C7184 /* HZRefreshComponetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRefreshComponetView.h; sourceTree = "<group>"; };
+		FDAC26551D1930B9006C7184 /* HZRefreshComponetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRefreshComponetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,7 @@
 		FD636E8C1D1402090010780B /* MTRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				FD636EB21D1403EB0010780B /* MTRefreshControl */,
 				FD636E901D1402090010780B /* AppDelegate.h */,
 				FD636E911D1402090010780B /* AppDelegate.m */,
 				FD636E931D1402090010780B /* ViewController.h */,
@@ -109,6 +135,69 @@
 				FD636EA91D1402090010780B /* Info.plist */,
 			);
 			path = MTRefreshControlTests;
+			sourceTree = "<group>";
+		};
+		FD636EB21D1403EB0010780B /* MTRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				FD636EB31D1403EB0010780B /* HZLoadModeControl */,
+				FD636EB41D1403EB0010780B /* HZRefreshControl */,
+				FD636EB51D1403EB0010780B /* HZTipsView */,
+				FD636EB61D1403EB0010780B /* Images */,
+			);
+			path = MTRefreshControl;
+			sourceTree = "<group>";
+		};
+		FD636EB31D1403EB0010780B /* HZLoadModeControl */ = {
+			isa = PBXGroup;
+			children = (
+				FD203FAC1D1A80C3002AD624 /* KyoLoadMoreControl.h */,
+				FD203FAD1D1A80C3002AD624 /* KyoLoadMoreControl.m */,
+			);
+			path = HZLoadModeControl;
+			sourceTree = "<group>";
+		};
+		FD636EB41D1403EB0010780B /* HZRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC264B1D183BCC006C7184 /* RHAnimator.h */,
+				FDAC264C1D183BD1006C7184 /* RHAnimator.m */,
+				FDAC26511D18DD4F006C7184 /* HZRefreshControl.h */,
+				FDAC26521D18DD4F006C7184 /* HZRefreshControl.m */,
+				FD636EB71D1404350010780B /* HZRefreshControlViewProtocol.h */,
+				FDAC264E1D183F57006C7184 /* HZRefreshControlConfiguration.h */,
+				FDAC264F1D183F57006C7184 /* HZRefreshControlConfiguration.m */,
+				FDAC263A1D17932C006C7184 /* HZRefreshControlViewStyle */,
+			);
+			path = HZRefreshControl;
+			sourceTree = "<group>";
+		};
+		FD636EB51D1403EB0010780B /* HZTipsView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HZTipsView;
+			sourceTree = "<group>";
+		};
+		FD636EB61D1403EB0010780B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FD203FB11D1B93C1002AD624 /* btn_blue_moren.png */,
+				FD203FAF1D1B93BB002AD624 /* btn_blue_gaoliang.png */,
+				FDAC263E1D179C1D006C7184 /* MTRefresh.bundle */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FDAC263A1D17932C006C7184 /* HZRefreshControlViewStyle */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC263B1D17936C006C7184 /* HZRefreshControlViewPinterest.h */,
+				FDAC263C1D17936C006C7184 /* HZRefreshControlViewPinterest.m */,
+				FDAC26541D1930B9006C7184 /* HZRefreshComponetView.h */,
+				FDAC26551D1930B9006C7184 /* HZRefreshComponetView.m */,
+			);
+			name = HZRefreshControlViewStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAC263F1D179C1D006C7184 /* MTRefresh.bundle in Resources */,
 				FD636E9D1D1402090010780B /* LaunchScreen.storyboard in Resources */,
+				FD203FB21D1B93C1002AD624 /* btn_blue_moren.png in Resources */,
 				FD636E9A1D1402090010780B /* Assets.xcassets in Resources */,
 				FD636E981D1402090010780B /* Main.storyboard in Resources */,
+				FD203FB01D1B93BB002AD624 /* btn_blue_gaoliang.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +303,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAC26501D183F57006C7184 /* HZRefreshControlConfiguration.m in Sources */,
+				FD203FAE1D1A80C3002AD624 /* KyoLoadMoreControl.m in Sources */,
 				FD636E951D1402090010780B /* ViewController.m in Sources */,
+				FDAC263D1D17936C006C7184 /* HZRefreshControlViewPinterest.m in Sources */,
+				FDAC26561D1930B9006C7184 /* HZRefreshComponetView.m in Sources */,
 				FD636E921D1402090010780B /* AppDelegate.m in Sources */,
+				FDAC26531D18DD4F006C7184 /* HZRefreshControl.m in Sources */,
 				FD636E8F1D1402090010780B /* main.m in Sources */,
+				FDAC264D1D183BD1006C7184 /* RHAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +502,7 @@
 				FD636EAE1D1402090010780B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD636EAF1D1402090010780B /* Build configuration list for PBXNativeTarget "MTRefreshControlTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +511,7 @@
 				FD636EB11D1402090010780B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
